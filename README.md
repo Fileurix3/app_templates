@@ -28,8 +28,15 @@ Inside the templates folder are all templates, if you don't need some of the tem
    ```
 
 4. **Make CLI usable globally**
+
    ```bash
    npm link
+   ```
+
+   OR
+
+   ```bash
+   sudo npm link
    ```
 
 ## Uninstall
