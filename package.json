@@ -1,0 +1,24 @@
+{
+  "name": "app_templates",
+  "version": "1.0.0",
+  "description": "CLI for creating project template",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "bin": {
+    "appt": "./build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.10.0"
+  }
+}
