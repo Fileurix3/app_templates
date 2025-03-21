@@ -6,7 +6,7 @@ cd $project_name
 
 npm init -y
 npm i
-npm i -D typescript ts-node @types/nod
+npm i -D typescript @types/node ts-node 
 tsc --init
 
 sed -i -E 's/"test":\s"echo.+$/"start": "node build\/index.js",/g' ./package.json
