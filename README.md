@@ -14,29 +14,10 @@ Inside the templates folder are all templates, if you don't need some of the tem
    git clone https://github.com/Fileurix3/app_templates.git
    ```
 
-2. **Navigate to the Project Folder**
+2. **Install project**
 
    ```bash
-   cd app_templates
-   ```
-
-3. **Install dependencies and Compile this project**
-
-   ```bash
-   npm i
-   npm run build
-   ```
-
-4. **Make CLI usable globally**
-
-   ```bash
-   npm link
-   ```
-
-   OR
-
-   ```bash
-   sudo npm link
+   sudo make install
    ```
 
 ## Uninstall
@@ -50,7 +31,7 @@ Inside the templates folder are all templates, if you don't need some of the tem
 2. **Remove global CLI**
 
    ```bash
-   npm unlink --global
+   sudo make uninstall
    ```
 
 3. **Remove folder with this project**
