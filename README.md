@@ -54,6 +54,8 @@ Inside the templates folder are all templates, if you don't need some of the tem
 
 ## What templates does this CLI support? <a id="templates"></a>
 
+- **typescript:** typescript project template
 - **expressjs:** express.js project template
 - **expressts:** express.js project template with typescript
-- **typescript:** typescript project
+- **expressjshtmx** express.js project template with htmx
+- **expresstshtmx** express.js project template with typescript and htmx
