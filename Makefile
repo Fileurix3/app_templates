@@ -1,7 +1,6 @@
-install:
-	npm install
-	npm run build
-	npm link
+install: 
+	gcc main.c -o appt
+	sudo mv appt /usr/local/bin/
 
 uninstall:
-	npm unlink --global
+	sudo rm /usr/local/bin/app

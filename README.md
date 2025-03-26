@@ -1,12 +1,10 @@
 # CLI for creating project template
 
-Only support nodejs, but i may add other languages and templates in the future.
+Only support nodejs templates, but i may add other languages and templates in the future.
 
-Inside the templates folder are all templates, if you don't need some of the templates, you can deleted there templates from the templates folder
+Inside the templates folder are all the templates, if you don't need some of them, you can delete them from the templates folder
 
 ## Install
-
-**You must have [nodejs](https://nodejs.org/) installed**
 
 1. **Clone the Repository**
 
@@ -28,7 +26,7 @@ Inside the templates folder are all templates, if you don't need some of the tem
    cd app_templates
    ```
 
-2. **Remove global CLI**
+2. **Remove CLI**
 
    ```bash
    sudo make uninstall
@@ -41,21 +39,26 @@ Inside the templates folder are all templates, if you don't need some of the tem
 
 ## How to use it?
 
-1. **Enter CLI name**
+```bash
+appt <templateName> <projectName>
+```
 
-   ```bash
-   appt
-   ```
+#### `<templateName>`: is the name of the template you want to create
 
-2. **You'll be asked to enter the name of your project**
-3. **You'll be asked to enter the name of the template**
+- You can see the names of the templates included in the project here: [What templates does this CLI support?](#templates)
 
-   You can see the names of the templates included in the project here: [What templates does this CLI support?](#templates)
+#### `<projectName>`: this is the name of your project
+
+#### Example:
+
+```bash
+appt expressjs my_project
+```
 
 ## What templates does this CLI support? <a id="templates"></a>
 
 - **typescript:** typescript project template
 - **expressjs:** express.js project template
 - **expressts:** express.js project template with typescript
-- **expressjshtmx** express.js project template with htmx
-- **expresstshtmx** express.js project template with typescript and htmx
+- **expressjshtmx:** express.js project template with htmx
+- **expresstshtmx:** express.js project template with typescript and htmx
