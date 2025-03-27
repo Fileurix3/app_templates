@@ -11,8 +11,13 @@ Inside the `/usr/local/share/templates/` folder are all the templates, if you do
    ```bash
    git clone https://github.com/Fileurix3/app_templates.git
    ```
+2. **Navigate to the Project Folder**
 
-2. **Install project**
+   ```bash
+   cd app_templates
+   ```
+
+3. **Install project**
 
    ```bash
    sudo make install
