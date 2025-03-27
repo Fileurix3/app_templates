@@ -4,7 +4,7 @@
 
 #include "../utils.h"
 
-int createTemplate(char *cliName, char *templateName, char *projectName)
+int createTemplate(char *templateName, char *projectName)
 {
   if (strlen(projectName) > MAX_NAME_LENGTH)
   {

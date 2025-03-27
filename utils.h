@@ -7,6 +7,6 @@
 #define TEMPLATES_PATH "/usr/local/share/templates"
 
 int help();
-int createTemplate(char *cliName, char *templateName, char *projectName);
+int createTemplate(char *templateName, char *projectName);
 
 #endif
