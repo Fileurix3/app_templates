@@ -1,5 +1,4 @@
 EXEC = appt
-SRC = main.c
 
 INSTALL_DIR = /usr/local/bin
 TEMPLATES_DIR = /usr/local/share/templates/
