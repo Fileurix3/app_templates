@@ -5,6 +5,7 @@
 #define MAX_PATH_LENGTH 206
 #define MAX_NAME_LENGTH 50
 #define MAX_COMMAND_LENGTH 256
+#define TEMPLATES_PATH "/usr/local/share/templates"
 
 void validateArgs(int *countArgs, char *cliName, char *templateName, char *projectName);
 
@@ -17,7 +18,7 @@ int main(int argc, char *argv[])
   validateArgs(&argc, cliName, templateName, projectName);
 
   char templatePath[MAX_PATH_LENGTH];
-  snprintf(templatePath, sizeof(templatePath), "./templates/%s/template.sh", templateName);
+  snprintf(templatePath, sizeof(templatePath), "%s/%s/template.sh", TEMPLATES_PATH, templateName);
 
   FILE *template = fopen(templatePath, "r");
 
