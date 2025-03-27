@@ -2,7 +2,7 @@
 
 Only support nodejs templates, but i may add other languages and templates in the future.
 
-Inside the templates folder are all the templates, if you don't need some of them, you can delete them from the templates folder
+Inside the `/usr/local/share/templates/` folder are all the templates, if you don't need some of them, you can delete them from the templates folder
 
 ## Install
 
@@ -39,21 +39,29 @@ Inside the templates folder are all the templates, if you don't need some of the
 
 ## How to use it?
 
-```bash
-appt <templateName> <projectName>
-```
+- **`appt -h, --help`**
 
-#### `<templateName>`: is the name of the template you want to create
+  - information about all commands
 
-- You can see the names of the templates included in the project here: [What templates does this CLI support?](#templates)
+- **`appt -c, --create <templateName> <projectName>`**
 
-#### `<projectName>`: this is the name of your project
+  - #### `<templateName>`: is the name of the template you want to create
 
-#### Example:
+    - You can see the names of the templates included in the project here: [What templates does this CLI support?](#templates)
 
-```bash
-appt expressjs my_project
-```
+  - #### `<projectName>`: this is the name of your project
+
+  #### Example:
+
+  ```bash
+  appt -c expressjs my_project
+  ```
+
+  OR
+
+  ```bash
+  appt --create expressjs my_project
+  ```
 
 ## What templates does this CLI support? <a id="templates"></a>
 
